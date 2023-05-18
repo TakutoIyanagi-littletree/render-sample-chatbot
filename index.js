@@ -36,7 +36,7 @@ async function handleEvent(event) {
 
   return client.replyMessage(event.replyToken, {
     type: 'text',
-    text: "これはこれは" //実際に返信の言葉を入れる箇所
+    text: "うんうん、大丈夫。君は頑張ってるよ！" //実際に返信の言葉を入れる箇所
   });
 }
 
